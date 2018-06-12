@@ -26,16 +26,16 @@ import us.codecraft.webmagic.proxy.SimpleProxyProvider;
  * @date 2018/6/4
  */
 //爬取目标页 http://xa.xiaozhu.com/fangzi/9542691764.html
-@TargetUrl("http://xa.xiaozhu.com/fangzi/\\d+\\.html")
+@TargetUrl("https://zh.airbnb.com/rooms/\\d+*")
 //获取目标页的列表页 http://xa.xiaozhu.com/search-duanzufang-p5-0/
-@HelpUrl("http://xa.xiaozhu.com/\\w+/")
+//@HelpUrl("http://xa.xiaozhu.com/\\w+/")
 public class XiaozhuProcessor implements PageProcessor {
 
     private static final Logger logger = LoggerFactory.getLogger(XiaozhuProcessor.class);
 
-    private String URL_TARGET = "http://xa.xiaozhu.com/fangzi/\\d+.html";
+    private String URL_TARGET = "https://zh.airbnb.com/rooms/\\d+*";
 
-    private Site site = Site.me().setRetryTimes(3).setSleepTime((int) (Math.random() * 5000) + 15000);
+    private Site site = Site.me().setRetryTimes(3).setSleepTime((int) (Math.random() * 5000));
 
     @Override
     public void process(Page page) {
@@ -45,13 +45,14 @@ public class XiaozhuProcessor implements PageProcessor {
             //目标页
             logger.info("当前访问:{}", page.getUrl().toString());
             //截取民宿地址
-            String address = page.getHtml().xpath("//span[@class='pr5']/text()").toString();
+            String address = page.getHtml().xpath("//span[@class='_eamm1ge']/span/text()").toString();
             //截取价格
-            String price = page.getHtml().xpath("//*[@id='pricePart']/div/span/text()").toString();
+            String price = page.getHtml().xpath("//span[@class='_doc79r']/span/text()").toString();
             //截取用户id
-            String userId = page.getUrl().regex("\\d+").toString();
+            String userId = (page.getUrl().regex("/\\d+?location=").toString()).split("\\?")[0];
             //截取户型
-            String type = page.getHtml().xpath("//li[@class='border_none']/p/text()").toString();
+            String type = page.getHtml().xpath("//small[@class='_f7heglr']/text()").toString() + " "
+                    +page.getHtml().xpath("//div[@class='_2q1l5fu']/text()").toString();
             logger.info("userId = {}, price = {}, address={}, type = {}", userId, price, address,type);
 
             if (StringUtils.isNotBlank(userId) && StringUtils.isNotBlank(address) && StringUtils.isNotBlank(price)) {
@@ -68,8 +69,9 @@ public class XiaozhuProcessor implements PageProcessor {
             logger.info("列表页==>{}", page.getUrl().toString());
             //添加后续url
             //page.addTargetRequests(page.getHtml().css("pagination_v2 pb0_vou").links().regex("http://xa\\.xiaozhu\\.com/*").all());
-            //page.addTargetRequests(page.getHtml().links().regex("http://xa\\.xiaozhu\\.com/search-duanzufang-p\\d+-\\d/").all());
-            page.addTargetRequests(page.getHtml().xpath("//*[@id='page_list']/ul/li/a[@href]").links().regex("http://xa\\.xiaozhu\\.com/fangzi/\\d+\\.html").all());
+            page.addTargetRequests(page.getHtml().links().regex("https://zh.airbnb.com/rooms/\\d+*").all());
+            page.addTargetRequests(page.getHtml().xpath("//ul[@class='_11hau3k']/li/a[@href]").links().regex("https://zh.airbnb.com/w+").all());
+            page.addTargetRequests(page.getHtml().xpath("//ul[@class='_11hau3k']/li/a[@href]").links().regex("https://zh.airbnb.com/w+offset=\\d+").all());
             //跳过本页不下载
             page.setSkip(true);
         }
@@ -84,12 +86,12 @@ public class XiaozhuProcessor implements PageProcessor {
     public static void main(String[] args) throws Exception {
         Spider xiaozhu = Spider.create(new XiaozhuProcessor())
                 //初始url
-                .addUrl("http://xa.xiaozhu.com/search-duanzufang-p13-0/")
+                .addUrl("https://zh.airbnb.com/s/中国陕西省西安市/homes?refinement_paths%5B%5D=%2Fhomes&guests=1&infants=0&children=0&place_id=ChIJuResIul5YzYRLliUp_1m1IU&fromHome=1&allow_override%5B%5D=&s_tag=OcKcA-H6&adults=1")
 //                .addUrl("http://xa.xiaozhu.com/fangzi/23906144103.html")
                 //结果保存
                 .addPipeline(new JsonFilePipeline("D:\\web-magic\\"))
                 //启动10个线程
-                .thread(1);
+                .thread(10);
 
         /*//启动爬虫监控
         SpiderMonitor.instance().register(xiaozhu);
