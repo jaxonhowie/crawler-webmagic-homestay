@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8e719a-ea1e-4e04-87e7-9f35ea536c27" name="Default" comment="" />
+    <list default="true" id="3c8e719a-ea1e-4e04-87e7-9f35ea536c27" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/webmagic-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/JsonFilePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/JsonFilePipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/webmagic-samples/target/" />
     <ignored path="$PROJECT_DIR$/webmagic-selenium/target/" />
@@ -35,8 +41,8 @@
       <file leaf-file-name="XiaozhuProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="-187">
+              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,44 +50,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpClientDownloader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TujiaProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileMergeUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileMergeUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="339">
+              <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1260#1299#0" expanded="true" />
+                <element signature="e#577#585#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirBnbProcessor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -89,7 +67,7 @@
       <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk1.8.0_151/src.zip!/java/io/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22116">
+            <state relative-caret-position="756">
               <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
             </state>
           </provider>
@@ -128,11 +106,10 @@
         <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/JsonFilePipeline.java" />
         <option value="$PROJECT_DIR$/webmagic-core/pom.xml" />
         <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/ProxyValidation.java" />
-        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java" />
-        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java" />
-        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java" />
-        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java" />
         <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" />
+        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java" />
+        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java" />
+        <option value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java" />
       </list>
     </option>
   </component>
@@ -168,32 +145,202 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
               <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
               <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="pipeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-extension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-extension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-extension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-extension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-extension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bd-manage-writer.git" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -222,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XiaozhuProcessor">
+  <component name="RunManager" selected="Application.FileMergeUtil">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -278,16 +425,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="webmagic-parent" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -332,8 +469,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XiaozhuProcessor" />
         <item itemvalue="Application.FileMergeUtil" />
+        <item itemvalue="Application.XiaozhuProcessor" />
         <item itemvalue="Application.TestDynamic" />
       </list>
     </recent_temporary>
@@ -360,15 +497,15 @@
       <workItem from="1528457257217" duration="1145000" />
       <workItem from="1528679284225" duration="283000" />
       <workItem from="1528680281628" duration="18434000" />
-      <workItem from="1528769259725" duration="3571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83778000" />
+    <option name="totallyTimeSpent" value="80207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,22 +513,22 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.7077922" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.7077922" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7077922" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info anchor="right" id="Database" order="3" weight="0.22441365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -412,6 +549,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -715,6 +862,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -741,8 +898,18 @@
     </entry>
     <entry file="jar://D:/java/jdk1.8.0_151/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22116">
+        <state relative-caret-position="756">
           <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -750,50 +917,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
           <caret line="646" column="38" selection-start-line="646" selection-start-column="25" selection-end-line="646" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/TujiaProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#26565#26566#0" expanded="true" />
+            <element signature="e#26601#26602#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="-187">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java">
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="339">
+          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1260#1299#0" expanded="true" />
+            <element signature="e#577#585#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,6 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="webmagic-core" />
+        <module name="webmagic-extension" />
+        <module name="webmagic-samples" />
+        <module name="webmagic-saxon" />
+        <module name="webmagic-scripts" />
+        <module name="webmagic-selenium" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

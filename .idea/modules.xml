@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/webmagic-core/webmagic-core.iml" filepath="$PROJECT_DIR$/webmagic-core/webmagic-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-extension/webmagic-extension.iml" filepath="$PROJECT_DIR$/webmagic-extension/webmagic-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-parent.iml" filepath="$PROJECT_DIR$/webmagic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-samples/webmagic-samples.iml" filepath="$PROJECT_DIR$/webmagic-samples/webmagic-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-saxon/webmagic-saxon.iml" filepath="$PROJECT_DIR$/webmagic-saxon/webmagic-saxon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-scripts/webmagic-scripts.iml" filepath="$PROJECT_DIR$/webmagic-scripts/webmagic-scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-selenium/webmagic-selenium.iml" filepath="$PROJECT_DIR$/webmagic-selenium/webmagic-selenium.iml" />
     </modules>
   </component>
 </project>
