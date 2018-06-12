@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-extension" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-saxon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-scripts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-selenium" charset="UTF-8" />
+  </component>
+</project>
