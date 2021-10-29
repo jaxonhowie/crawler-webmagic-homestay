@@ -4,6 +4,7 @@ import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
 
 import java.util.ArrayList;
@@ -15,8 +16,10 @@ import java.util.List;
  */
 public class BaiduBaikePageProcessor implements PageProcessor {
 
-    private Site site = Site.me()//.setHttpProxy(new HttpHost("127.0.0.1",8888))
-            .setRetryTimes(3).setSleepTime(1000).setUseGzip(true);
+    private Site site = Site.me()
+            .setRetryTimes(3)
+            .setSleepTime(1000)
+            .setUseGzip(true);
 
     @Override
     public void process(Page page) {
@@ -31,7 +34,7 @@ public class BaiduBaikePageProcessor implements PageProcessor {
 
     public static void main(String[] args) {
         //single download
-        Spider spider = Spider.create(new BaiduBaikePageProcessor()).thread(2);
+        Spider spider = Spider.create(new BaiduBaikePageProcessor()).thread(2).addPipeline(new JsonFilePipeline("D:\\web-magic"));
         String urlTemplate = "http://baike.baidu.com/search/word?word=%s&pic=1&sug=1&enc=utf8";
         ResultItems resultItems = spider.<ResultItems>get(String.format(urlTemplate, "水力发电"));
         System.out.println(resultItems);

@@ -3,6 +3,7 @@ package us.codecraft.webmagic.processor.example;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.pipeline.FilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
 
 /**
@@ -11,7 +12,10 @@ import us.codecraft.webmagic.processor.PageProcessor;
  */
 public class GithubRepoPageProcessor implements PageProcessor {
 
-    private Site site = Site.me().setRetryTimes(3).setSleepTime(1000).setTimeOut(10000);
+    private Site site = Site.me()
+            .setRetryTimes(3)
+            .setSleepTime(1000)
+            .setTimeOut(10000);
 
     @Override
     public void process(Page page) {
@@ -32,6 +36,10 @@ public class GithubRepoPageProcessor implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new GithubRepoPageProcessor()).addUrl("https://github.com/code4craft").thread(5).run();
+        Spider.create(new GithubRepoPageProcessor())
+                .addUrl("https://github.com/code4craft")
+                .addPipeline(new FilePipeline("D:\\web-magic"))
+                .thread(5)
+                .run();
     }
 }

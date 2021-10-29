@@ -81,10 +81,10 @@ public class FileMergeUtil {
     }
 
     public static void main(String[] args) {
-        Set<String> files = getAllFilePath("D:\\web-magic\\xa.xiaozhu.com");
+        Set<String> files = getAllFilePath("D:\\web-magic\\www.zhihu.com");
         for (String file : files) {
             System.out.println("filename:"+file);
-            writeFile(readFile(file),"D:\\web-magic\\xa.xiaozhu.com\\xiaozhu.txt");
+            writeFile(readFile(file),"D:\\web-magic\\www.zhihu.com\\zhihu.txt");
         }
     }
 

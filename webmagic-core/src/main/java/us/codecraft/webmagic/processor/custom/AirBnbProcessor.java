@@ -6,14 +6,9 @@ import org.slf4j.LoggerFactory;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
-import us.codecraft.webmagic.model.annotation.TargetUrl;
 import us.codecraft.webmagic.monitor.SpiderMonitor;
 import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
-
-import java.net.URLEncoder;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * airbnb 西安民宿信息爬取
