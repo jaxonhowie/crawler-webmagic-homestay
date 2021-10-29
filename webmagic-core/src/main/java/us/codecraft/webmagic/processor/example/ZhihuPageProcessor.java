@@ -3,6 +3,7 @@ package us.codecraft.webmagic.processor.example;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
 
 /**
@@ -31,6 +32,9 @@ public class ZhihuPageProcessor implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new ZhihuPageProcessor()).addUrl("https://www.zhihu.com/explore").run();
+        Spider.create(new ZhihuPageProcessor())
+                .addUrl("https://www.zhihu.com/explore")
+                .addPipeline(new JsonFilePipeline("D:\\web-magic"))
+                .run();
     }
 }

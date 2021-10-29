@@ -18,7 +18,6 @@ import java.util.regex.Pattern;
  */
 public class ProxyValidation {
 
-    private static final int PING_TIMES = 3;
     private static final Logger logger = LoggerFactory.getLogger(ProxyValidation.class);
 
 

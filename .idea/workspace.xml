@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e719a-ea1e-4e04-87e7-9f35ea536c27" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-extension/webmagic-extension.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-extension/webmagic-extension.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/ProxyValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/ProxyValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmagic-samples/webmagic-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-samples/webmagic-samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-saxon/webmagic-saxon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-saxon/webmagic-saxon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmagic-scripts/webmagic-scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-scripts/webmagic-scripts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-selenium/webmagic-selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-selenium/webmagic-selenium.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/webmagic-samples/target/" />
-    <ignored path="$PROJECT_DIR$/webmagic-selenium/target/" />
-    <ignored path="$PROJECT_DIR$/webmagic-saxon/target/" />
-    <ignored path="$PROJECT_DIR$/webmagic-extension/target/" />
-    <ignored path="$PROJECT_DIR$/webmagic-scripts/target/" />
-    <ignored path="$PROJECT_DIR$/webmagic-core/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,96 +36,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XiaozhuProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/XiaozhuProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627">
-              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpClientDownloader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirBnbProcessor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3518#3519#0" expanded="true" />
-                <element signature="e#3545#3546#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="305" selection-start-line="305" selection-end-line="305" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Site.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZhihuPageProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomRedirectStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/CustomRedirectStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -143,6 +52,10 @@
       <find>protocolEx</find>
       <find>https</find>
       <find>h</find>
+      <find>SSL</find>
+      <find>ClientProtocolException</find>
+      <find>Site.setCharset</find>
+      <find>getSite</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,11 +94,6 @@
         <option name="userSettingsFile" value="E:\Dev\Java\maven\jzp\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -193,6 +101,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="209zej9E3UjlkA0EGVAohRo9VHK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -256,28 +165,22 @@
               <item name="webmagic" type="462c0819:PsiDirectoryNode" />
               <item name="processor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webmagic-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-webmagic-homestay" type="462c0819:PsiDirectoryNode" />
-              <item name="webmagic-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ClientProtocolException&#9;PSI&#9;JAVA://org.apache.http.client.ClientProtocolException" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bd-manage-writer.git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -294,18 +197,6 @@
       <recent name="E:\IdeaProjects\jzDemo\webmagic\webmagic-core\src\main\java\us\codecraft\webmagic\model\annotation" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.AirBnbProcessor">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -320,6 +211,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="FileMergeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="us.codecraft.webmagic.processor.custom.utils.FileMergeUtil" />
@@ -331,6 +225,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestDynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="us.codecraft.webmagic.processor.custom.TestDynamic" />
@@ -342,6 +239,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="XiaozhuProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="us.codecraft.webmagic.processor.custom.XiaozhuProcessor" />
@@ -353,78 +253,73 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZhihuPageProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="us.codecraft.webmagic.processor.example.ZhihuPageProcessor" />
+      <module name="webmagic-core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.codecraft.webmagic.processor.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.XiaozhuProcessor" />
       <item itemvalue="Application.TestDynamic" />
       <item itemvalue="Application.FileMergeUtil" />
       <item itemvalue="Application.AirBnbProcessor" />
+      <item itemvalue="Application.ZhihuPageProcessor" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AirBnbProcessor" />
+        <item itemvalue="Application.ZhihuPageProcessor" />
         <item itemvalue="Application.FileMergeUtil" />
         <item itemvalue="Application.XiaozhuProcessor" />
         <item itemvalue="Application.TestDynamic" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -447,11 +342,12 @@
       <workItem from="1528457257217" duration="1145000" />
       <workItem from="1528679284225" duration="283000" />
       <workItem from="1528680281628" duration="18434000" />
+      <workItem from="1635471694386" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81682000" />
+    <option name="totallyTimeSpent" value="87215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -509,38 +405,9 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="36" selection-start-line="32" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/selector/Selectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/selector/AbstractSelectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -762,6 +629,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,6 +681,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
           <caret line="646" column="38" selection-start-line="646" selection-start-column="25" selection-end-line="646" selection-end-column="38" />
+          <folding>
+            <element signature="e#26565#26566#0" expanded="true" />
+            <element signature="e#26601#26602#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,41 +721,17 @@
     <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/CustomRedirectStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="305" selection-start-line="305" selection-end-line="305" />
         </state>
       </provider>
     </entry>
@@ -889,14 +742,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Dev/Java/maven/jzp/repo/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/ClientProtocolException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Dev/Java/maven/jzp/repo/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar!/org/apache/http/client/ClientProtocolException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="577" selection-start-line="577" selection-end-line="577" />
+          <folding>
+            <element signature="e#16676#16677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3518#3519#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,11 +6,9 @@ import org.slf4j.LoggerFactory;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
-import us.codecraft.webmagic.model.annotation.TargetUrl;
+import us.codecraft.webmagic.monitor.SpiderMonitor;
 import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
-
-import java.net.URLEncoder;
 
 /**
  * airbnb 西安民宿信息爬取
@@ -19,7 +17,7 @@ import java.net.URLEncoder;
  * @date 2018/6/12
  */
 //爬取目标页 http://xa.xiaozhu.com/fangzi/9542691764.html
-@TargetUrl("https://zh.airbnb.com/rooms/\\d+*")
+//@TargetUrl("https://zh.airbnb.com/rooms/\\d+*")
 //获取目标页的列表页 http://xa.xiaozhu.com/search-duanzufang-p5-0/
 //@HelpUrl("http://xa.xiaozhu.com/\\w+/")
 public class AirBnbProcessor implements PageProcessor {
@@ -28,10 +26,7 @@ public class AirBnbProcessor implements PageProcessor {
 
     private String URL_TARGET = "https://zh.airbnb.com/rooms/\\d+*";
 
-    private Site site = Site.me()
-            .setUserAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36")
-            .setRetryTimes(3)
-            .setSleepTime((int) (Math.random() * 5000));
+    private Site site = Site.me();
 
     @Override
     public void process(Page page) {
@@ -41,7 +36,7 @@ public class AirBnbProcessor implements PageProcessor {
             //目标页
             logger.info("当前访问:{}", page.getUrl().toString());
             //截取民宿地址
-            String address = page.getHtml().xpath("//span[@class='_eamm1ge']/span/text()").toString();
+            String desc = page.getHtml().xpath("//span[@class='_eamm1ge']/span/text()").toString();
             //截取价格
             String price = page.getHtml().xpath("//span[@class='_doc79r']/span/text()").toString();
             //截取用户id
@@ -49,11 +44,11 @@ public class AirBnbProcessor implements PageProcessor {
             //截取户型
             String type = page.getHtml().xpath("//small[@class='_f7heglr']/text()").toString() + " "
                     +page.getHtml().xpath("//div[@class='_2q1l5fu']/text()").toString();
-            logger.info("userId = {}, price = {}, address={}, type = {}", userId, price, address,type);
+            logger.info("userId = {}, price = {}, address={}, type = {}", userId, price, desc,type);
 
-            if (StringUtils.isNotBlank(userId) && StringUtils.isNotBlank(address) && StringUtils.isNotBlank(price)) {
+            if (StringUtils.isNotBlank(userId) && StringUtils.isNotBlank(desc) && StringUtils.isNotBlank(price)) {
                 page.putField("用户Id", userId);
-                page.putField("地址", address);
+                page.putField("desc", desc);
                 page.putField("价格", price);
                 page.putField("户型", type);
             } else {
@@ -76,22 +71,30 @@ public class AirBnbProcessor implements PageProcessor {
 
     @Override
     public Site getSite() {
+        if (site == null) {
+            site = Site
+                    .me()
+                    .setDomain("www.elmouda.com")
+                    .setCharset("UTF-8")
+                    .setUserAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36")
+                    .setSleepTime(3000).setCycleRetryTimes(3);
+        }
         return site;
     }
 
     public static void main(String[] args) throws Exception {
-        String originalUrl = "https://zh.airbnb.com/s/中国陕西省西安市/homes?refinement_paths%5B%5D=%2Fhomes&guests=1&infants=0&children=0&place_id=ChIJuResIul5YzYRLliUp_1m1IU&fromHome=1&allow_override%5B%5D=&s_tag=OcKcA-H6&adults=1";
-        String enc = URLEncoder.encode(originalUrl,"utf-8");
+        String originalUrl = "https://zh.airbnb.com/s/xian--China/homes?refinement_paths%5B%5D=%2Fhomes&guests=1&infants=0&children=0&place_id=ChIJuResIul5YzYRLliUp_1m1IU&fromHome=1&allow_override%5B%5D=&s_tag=OcKcA-H6&adults=1";
         Spider airbnb = Spider.create(new XiaozhuProcessor())
                 //初始url
-                .addUrl(enc)
+                .addUrl(originalUrl)
 //                .addUrl("http://xa.xiaozhu.com/fangzi/23906144103.html")
                 //结果保存
                 .addPipeline(new JsonFilePipeline("D:\\web-magic\\"));
 
-        /* //启动爬虫监控
-         * SpiderMonitor.instance().register(xiaozhu);
-         * SpiderMonitor.instance().register(airBnb);
+        //启动爬虫监控
+        SpiderMonitor.instance().register(airbnb);
+
+        /**
          *
          * Proxy proxies[] = HttpUtils.getProxyIPs(); // 得到线程池
          * HttpClientDownloader httpClientDownloader = new HttpClientDownloader();
