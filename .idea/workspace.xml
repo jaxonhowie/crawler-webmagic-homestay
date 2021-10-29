@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e719a-ea1e-4e04-87e7-9f35ea536c27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/AirBnbProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/FileMergeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/ProxyValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/custom/utils/ProxyValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-samples/webmagic-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-samples/webmagic-samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmagic-scripts/webmagic-scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic-scripts/webmagic-scripts.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
