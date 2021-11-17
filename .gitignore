@@ -8,3 +8,4 @@ out/
 bin/
 .myeclipse
 .idea/
+/webmagic-parent.iml
